@@ -513,12 +513,13 @@ setMethod("summary", signature("Coppe.cosenza"),
               cat("\n----------------\n")
               print(df)
 
-              names(df1) <-  c("Dropped Project","Incompatible Option")
-              df <- df[order( df[,1]),]
-              cat(paste0("\n-------------------\nIncompatible solutions using the", sep = " ", object@aggregation.matrix@name, ":"))
-              cat("\n--------------------\n")
-              print(df1)
-
+              if (!is.null(df1)) {
+                names(df1) <-  c("Dropped Project","Incompatible Option")
+                df <- df[order( df[,1]),]
+                cat(paste0("\n-------------------\nIncompatible solutions using the", sep = " ", object@aggregation.matrix@name, ":"))
+                cat("\n--------------------\n")
+                print(df1)
+              }
             }
 
 
@@ -526,7 +527,8 @@ setMethod("summary", signature("Coppe.cosenza"),
 
             cat(paste0("Description of the used ", object@aggregation.matrix@name, ":\n\n"))
 
-            print(new("Aggregation.matrix.default"))
+            #print(new("Aggregation.matrix.default"))
+            print(new(object@aggregation.matrix@name))
 
             #print(citation("coppeCosenzaR"))
 

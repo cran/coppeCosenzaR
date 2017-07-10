@@ -1,7 +1,7 @@
 Package: coppeCosenzaR
 Title: COPPE-Cosenza Fuzzy Hierarchy Model
-Date: 2017-04-29
-Version: 0.1.0
+Date: 2017-07-10
+Version: 0.1.2
 Authors@R: c(person("Pier", "Taranti", email = "ptaranti@gmail.com",
              role = c("aut","cre")),
              person("Leonardo", "Pessoa",
@@ -38,16 +38,16 @@ License: GPL-2 | file LICENSE
 URL: https://github.com/ptaranti/coppeCosenzaR
 BugReports: https://github.com/ptaranti/coppeCosenzaR/issues
 Collate: 'aggregation-matrix.R' 'aggregation-matrix-default.R'
-        'factor.R' 'factors-of-interest.R'
-        'option-factor-availability.R' 'option-resources.R' 'option.R'
-        'option-portfolio.R' 'project-criterion.R' 'project-criteria.R'
-        'project.R' 'project-portfolio.R' 'coppe-cosenza.R'
-        'coppe-cosenzaR.R'
+        'aggregation-matrix-membership-difference.R' 'factor.R'
+        'factors-of-interest.R' 'option-factor-availability.R'
+        'option-resources.R' 'option.R' 'option-portfolio.R'
+        'project-criterion.R' 'project-criteria.R' 'project.R'
+        'project-portfolio.R' 'coppe-cosenza.R' 'coppe-cosenzaR.R'
 NeedsCompilation: no
-Packaged: 2017-05-19 15:25:13 UTC; taranti
+Packaged: 2017-07-10 13:17:39 UTC; taranti
 Author: Pier Taranti [aut, cre],
   Leonardo Pessoa [aut],
   Carlos Cosenza [aut]
 Maintainer: Pier Taranti <ptaranti@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-05-20 07:20:16 UTC
+Date/Publication: 2017-07-10 13:54:25 UTC
