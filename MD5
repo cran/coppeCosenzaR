@@ -1,8 +1,8 @@
-6039e0c040aa6dea53c65005ca4c32b4 *DESCRIPTION
+c467cb2a8ff6a420fd5a6bb38f8448f3 *DESCRIPTION
 4641e94ec96f98fabc56ff9cc48be14b *LICENSE
 01e28b600c12e03a8d1ef6e64e5c2f35 *NAMESPACE
-c6ac6d021171eba2eb4a2d80bd832360 *R/aggregation-matrix-default.R
-5ab2c1011189f596ce4c9fb4391cd58c *R/aggregation-matrix-membership-difference.R
+92932ed76c5bf1dfc17987f9fbe21d93 *R/aggregation-matrix-default.R
+7591ab91bc826fb6f057c47855d35498 *R/aggregation-matrix-membership-difference.R
 e538245c76ed0f3044eeea3eacef8407 *R/aggregation-matrix.R
 aaac06fd8e26bee2714d257c44e330be *R/coppe-cosenza.R
 c896885fd6b3f69b9f7ac4038385d0bd *R/coppe-cosenzaR.R

@@ -1,7 +1,7 @@
 Package: coppeCosenzaR
 Title: COPPE-Cosenza Fuzzy Hierarchy Model
-Date: 2017-07-10
-Version: 0.1.2
+Date: 2017-10-28
+Version: 0.1.3
 Authors@R: c(person("Pier", "Taranti", email = "ptaranti@gmail.com",
              role = c("aut","cre")),
              person("Leonardo", "Pessoa",
@@ -44,10 +44,10 @@ Collate: 'aggregation-matrix.R' 'aggregation-matrix-default.R'
         'project-criterion.R' 'project-criteria.R' 'project.R'
         'project-portfolio.R' 'coppe-cosenza.R' 'coppe-cosenzaR.R'
 NeedsCompilation: no
-Packaged: 2017-07-10 13:17:39 UTC; taranti
+Packaged: 2017-10-28 13:21:46 UTC; taranti
 Author: Pier Taranti [aut, cre],
   Leonardo Pessoa [aut],
   Carlos Cosenza [aut]
 Maintainer: Pier Taranti <ptaranti@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-07-10 13:54:25 UTC
+Date/Publication: 2017-10-28 13:29:46 UTC
